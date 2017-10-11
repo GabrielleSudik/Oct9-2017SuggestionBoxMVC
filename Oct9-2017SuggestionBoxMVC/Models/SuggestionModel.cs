@@ -31,7 +31,9 @@ namespace Oct9_2017SuggestionBoxMVC.Models
             set { this.suggestion = value; }
         }
 
+        //starting here, you are practicing migration
 
+        public string Name { get; set; }
 
     }
 }
